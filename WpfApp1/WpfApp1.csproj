@@ -1,0 +1,101 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="attack.png" />
+    <None Remove="cancel_attack.png" />
+    <None Remove="clock.png" />
+    <None Remove="down-arrow.png" />
+    <None Remove="house icon.jpg" />
+    <None Remove="Images\about.png" />
+    <None Remove="Images\AboutPage\about1.jpg" />
+    <None Remove="Images\AboutPage\about2.png" />
+    <None Remove="Images\Citizens\Citizen_Blue.png" />
+    <None Remove="Images\Citizens\Citizen_DarkOrange.png" />
+    <None Remove="Images\Citizens\Citizen_Green.png" />
+    <None Remove="Images\Citizens\Citizen_Orange.png" />
+    <None Remove="Images\Citizens\Citizen_Red.png" />
+    <None Remove="Images\Citizens\Citizen_Violet.png" />
+    <None Remove="Images\gears_animation.gif" />
+    <None Remove="Images\journal.png" />
+    <None Remove="Images\journal_cancel.png" />
+    <None Remove="Images\pause.png" />
+    <None Remove="Images\play.png" />
+    <None Remove="Images\speedup.png" />
+    <None Remove="Images\speedup_cancel.png" />
+    <None Remove="Images\Squads\Squad_Blue.png" />
+    <None Remove="Images\Squads\Squad_DarkOrange.png" />
+    <None Remove="Images\Squads\Squad_Green.png" />
+    <None Remove="Images\Squads\Squad_Orange.png" />
+    <None Remove="Images\Squads\Squad_Red.png" />
+    <None Remove="Images\Squads\Squad_Violet.png" />
+    <None Remove="Images\Towns\City.png" />
+    <None Remove="Images\Towns\City_Blue.png" />
+    <None Remove="Images\Towns\City_DarkOrange.png" />
+    <None Remove="Images\Towns\City_Green.png" />
+    <None Remove="Images\Towns\City_Orange.png" />
+    <None Remove="Images\Towns\City_Red.png" />
+    <None Remove="Images\Towns\City_Violet.png" />
+    <None Remove="menu.png" />
+    <None Remove="pause.png" />
+    <None Remove="play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="clock.png" />
+    <Resource Include="Images\about.png" />
+    <Resource Include="Images\AboutPage\about1.jpg" />
+    <Resource Include="Images\AboutPage\about2.png" />
+    <Resource Include="Images\attack.png" />
+    <Resource Include="Images\cancel_attack.png" />
+    <Resource Include="Images\Citizens\Citizen_Blue.png" />
+    <Resource Include="Images\Citizens\Citizen_DarkOrange.png" />
+    <Resource Include="Images\Citizens\Citizen_Green.png" />
+    <Resource Include="Images\Citizens\Citizen_Orange.png" />
+    <Resource Include="Images\Citizens\Citizen_Red.png" />
+    <Resource Include="Images\Citizens\Citizen_Violet.png" />
+    <Resource Include="Images\clock.png" />
+    <Resource Include="Images\down-arrow.png" />
+    <Resource Include="Images\gears_animation.gif" />
+    <Resource Include="Images\house icon.jpg" />
+    <Resource Include="Images\journal.png" />
+    <Resource Include="Images\journal_cancel.png" />
+    <Resource Include="Images\menu.png" />
+    <Resource Include="Images\pause.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\speedup.png" />
+    <Resource Include="Images\speedup_cancel.png" />
+    <Resource Include="Images\Squads\Squad_Blue.png" />
+    <Resource Include="Images\Squads\Squad_DarkOrange.png" />
+    <Resource Include="Images\Squads\Squad_Green.png" />
+    <Resource Include="Images\Squads\Squad_Orange.png" />
+    <Resource Include="Images\Squads\Squad_Red.png" />
+    <Resource Include="Images\Squads\Squad_Violet.png" />
+    <Resource Include="Images\Towns\City.png" />
+    <Resource Include="Images\Towns\City_Blue.png" />
+    <Resource Include="Images\Towns\City_DarkOrange.png" />
+    <Resource Include="Images\Towns\City_Green.png" />
+    <Resource Include="Images\Towns\City_Orange.png" />
+    <Resource Include="Images\Towns\City_Red.png" />
+    <Resource Include="Images\Towns\City_Violet.png" />
+    <Resource Include="menu.png" />
+    <Resource Include="pause.png" />
+    <Resource Include="play.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\UI\UI Interfaces\" />
+    <Folder Include="Data\UI\UI Logic\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
